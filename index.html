@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brenly Website</title>
+    <link rel="stylesheet" href="stylez.css">
+</head>
+<body>
+<div class="loader">
+    <div class="spinner"></div>
+</div>
+<div class="semi-transparent-bg"></div>
+    <nav class="navbar">
+        <div class="navbar-brand">Brenly</div>
+        <div class="navbar-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Pictures</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="welcome-box">
+            <h2>Welcome to My Website</h2>
+            <div class="welcome-content">
+             <img src="profile.png" alt="Profile Image" class="profile-image">
+            <div class="welcome-text">
+            <ul>
+            <li><span class="bold">Grade & Section:</span> XII-COOPER</li>
+            <li><span class="bold">Future Work:</span> Software Engineering</li>
+            </ul>
+            </div>
+            </div>
+        </div>
+        
+        <div class="about-box">
+            <h2>About Me</h2>
+            <p>Hello! Welcome to my website, My name is Brenly Marion S. Camarillo and I aspire to be a Software Engineer. I hope you have a wonderful search in my 
+			website!</p>
+           
+        </div>
+        
+      <div class="portfolio-box">
+    <h2>Portfolio</h2>
+    <div class="task-buttons">
+	<!-- Wala pang laman ang performance task buttons -->
+        <a href="#task1" class="task-button">Performance Task 1</a>
+        <a href="#task2" class="task-button">Performance Task 2</a>
+        <a href="#task3" class="task-button">Performance Task 3</a>
+        <a href="#task4" class="task-button">Performance Task 4</a>
+    </div>
+	</div>
+        
+        <div class="gallery-box">
+            <h2>Family & Friends</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="family1.jpg" >
+                </div>
+                <div class="gallery-item">
+                    <img src="friend1.jpg" >
+                </div>
+                <div class="gallery-item">
+                    <img src="family2.jpg" >
+                </div>
+                <div class="gallery-item">
+                    <img src="friend2.jpg" >
+                </div>
+            </div>
+        </div>
+    </div>
+	 <footer class="site-footer">
+    <div class="social-links">
+      
+        <a href="bemcamarillo@gmail.com" class="social-icon">
+            <svg class="icon" viewBox="0 0 24 24">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            Email
+        </a>
+        
+    
+        <a href="https://www.facebook.com/brenly.camarillo.5/" class="social-icon">
+            <svg class="icon" viewBox="0 0 24 24">
+                <path d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12z"/>
+            </svg>
+            Facebook
+        </a>
+        
+   
+        <a href="tel:+1234567890" class="social-icon">
+            <svg class="icon" viewBox="0 0 24 24">
+                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+            </svg>
+            Phone
+        </a>
+    </div>
+    
+    <div class="copyright">
+        &copy; <span id="year"></span> Brenly Web. All rights reserved.
+    </div>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
