@@ -33,7 +33,7 @@ body::before {
     opacity: 0.5;
 	animation: fadeIn 1.5s ease-out;
 }
-}
+
 
 
 .welcome-box, .about-box, .portfolio-box, .gallery-box {
@@ -256,4 +256,5 @@ section {
 
 @keyframes fadeOut {
     to { opacity: 0; visibility: hidden; }
+
 }
